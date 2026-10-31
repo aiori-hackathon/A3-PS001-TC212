@@ -29,3 +29,4 @@ Run summaries store the alert timestamp and delay from run start. Distinct paths
 
 ## Android telemetry caveat
 FileObserver event coverage depends on Android version and filesystem. A dependable OPEN event is not exposed consistently. This prototype scores observable CREATE, MODIFY, CLOSE_WRITE, and move/rename events; verify telemetry on the selected emulator before interpreting results.
+
